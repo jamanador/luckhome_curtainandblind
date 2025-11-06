@@ -13,7 +13,7 @@ const Products = () => {
           viewport={{ once: true }}
           className="text-center space-y-2 mb-16"
         >
-          <p className="text-blue-400 font-medium">Explore Our</p>
+          <p className="text-[#00B2AD] font-semibold">Explore Our</p>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
             Range Of Products
           </h2>

@@ -22,12 +22,12 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.8 }}
-                className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight"
+                className="text-3xl lg:text-5xl font-bold text-gray-900 leading-loose text-left"
               >
-                Your Certified Partner for
-                <span className="text-blue-400"> Luxury</span>
-                <span className="text-yellow-600"> Curtains & Blinds</span> in
-                <span className="text-blue-400"> Dubai</span>
+                Your Go-To Team for <br className="hidden md:block" />
+                <span className="text-black">Luxury </span>
+                <span className="text-[#00B2AD]">Curtains & Blinds</span> <br className="hidden md:block" />
+                in <span className="text-black">Dubai</span>
               </motion.h1>
 
               <motion.p
@@ -36,10 +36,7 @@ const Hero = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
                 className="text-lg text-gray-600 leading-relaxed max-w-xl"
               >
-                Transform your space with premium quality curtains and blinds.
-                We provide professional installation services, offering a wide range
-                of luxury window treatments that combine style, functionality, and
-                exceptional craftsmanship.
+                We are a certified specialist in luxury window treatments, offering premium curtains and blinds across Dubai. With a focus on elegance and precision, we transform interiors with blackout, sheer, and designer solutions tailored to modern living.
               </motion.p>
             </div>
 
@@ -49,7 +46,7 @@ const Hero = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="flex flex-wrap gap-4"
             >
-              <Link to='/products' className="text-black px-5 md:px-8 py-3 border rounded-full hover:bg-blue-400 hover:text-white transition-colors duration-200 font-medium">
+              <Link to='/products' className="text-black px-5 md:px-8 py-3 border rounded-full hover:bg-[#00B2AD] hover:text-white transition-colors duration-200 font-medium">
                 Our Products →
               </Link>
               <button className="border border-gray-300 text-gray-700 px-5 md:px-8 py-3 rounded-full hover:bg-gray-700 hover:text-white transition-colors duration-200 font-medium">

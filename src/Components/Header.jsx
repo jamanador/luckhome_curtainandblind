@@ -49,7 +49,7 @@ const Header = () => {
                 key={item.name}
                 to={item.Link}
                 whilehover={{ y: -2 }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-[#00B2AD] font-medium transition-colors duration-200"
               >
                 {item.name}
               </Link>
@@ -60,7 +60,7 @@ const Header = () => {
           <motion.button
             whilehover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="hidden lg:flex items-center space-x-2 bg-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-500 transition-colors duration-200"
+            className="hidden lg:flex items-center space-x-2 bg-[#00B2AD] text-white px-6 py-2 rounded-lg hover:bg-[#189591] transition-colors duration-200"
           >
             <Phone className="w-4 h-4" />
             <span>Get Quote</span>

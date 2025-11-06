@@ -29,14 +29,14 @@ const ProductCard = ({ product, index }) => {
           {/* Always-visible text */}
           <div className="absolute inset-0 flex items-center justify-center z-50">
             <Link to={`/product/${(product.name)}`} title='Click Here To View More Details' className="text-center text-white  font-bold text-lg md:text-xl lg:text-2xl">
-              <h3 className="text-4xl font-extrabold text-white hover:text-[#f8d93f] hover:font-extrabold  transition-colors duration-300 text-center px-4 leading-tight">
+              <h3 className="text-4xl font-extrabold text-white hover:text-white transition-colors duration-300 hover:font-extrabold  text-center px-4 leading-tight">
                 {firstLine}<br />{secondLine}
               </h3>
             </Link>
           </div>
 
           {/* Hover Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-blue-500 via-blue-500/80 to-blue-500/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-sm z-40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#00B2AD] via-[#00B2AD]/80 to-[#00B2AD]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-sm z-40" />
         </div>
       </div>
     </motion.div>

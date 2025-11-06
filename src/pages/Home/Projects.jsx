@@ -12,7 +12,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center space-y-1 mb-16"
         >
-          <p className="text-blue-400 font-semibold">Discover Our</p>
+          <p className="text-[#00B2AD] font-semibold">Discover Our</p>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
             Projects That Reflect Our
             <br />
