@@ -1,9 +1,9 @@
-# 🪟 Waves & Curtain – Full Stack Project Coming Soon
+# Luck Home Curtain & Blind – Full Stack Project Coming Soon
 
-![Waves & Curtain – Full Website Mockup](./src/assets/mockup02.png)
+![Luck Home Curtain & Blind – Full Website Mockup](./src/assets/mockup02.png)  
 ![Home Page Preview](./src/assets/Full%20template.png)
 
-I developed the **full-stack project** for **Waves & Curtain**, a premium UAE-based interior brand specializing in luxury curtains and blinds.
+I developed the **full-stack project** for **Luck Home Curtain & Blind**, a premium UAE-based interior brand specializing in luxury curtains and blinds.
 
 **This project will be live soon... Stay tuned!**
 
@@ -20,4 +20,5 @@ I developed the **full-stack project** for **Waves & Curtain**, a premium UAE-ba
 ---
 
 > 🏗️ Project is under development. More features and functionalities coming soon.
+
 # luckhome_curtainandblind
