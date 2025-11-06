@@ -45,7 +45,7 @@ export const Routes = () => {
           element: <AllProjectsPage />
         },
         {
-          path: '/privacy',
+          path: '/privacy-policy',
           element: <PrivacyPolicyPage />
         }
         ,

@@ -10,7 +10,7 @@ const AllSingleProduct = ({ product, index }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
       viewport={{ once: true }}
-      className="group cursor-pointer w-full lg:max-w-sm md:max-w-lg max-w-lg"
+      className="group cursor-pointer w-full lg:max-w-sm md:max-w-lg max-w-lg z-40"
     >
       <div className="relative rounded-2xl overflow-hidden shadow-lg bg-white">
         <div className="relative h-64 overflow-hidden">

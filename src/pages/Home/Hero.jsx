@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Play } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import project25 from '../../assets/project25.png';
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -99,7 +99,7 @@ const Hero = () => {
                 {!isPlaying ? (
                   <>
                     <img
-                      src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800"
+                      src={project25}
                       alt="Luxury curtains installation"
                       loading="lazy"
                       className="w-full h-full object-cover"

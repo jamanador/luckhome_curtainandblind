@@ -4,7 +4,7 @@ import DiscoverUs from '../Home/DiscoverUs';
 
 const AllProjectsPage = () => {
   return (
-    <section id="more-projects" className="py-20 mt-20">
+    <section id="more-projects" className="py-20 mt-20 max-w-6xl mx-auto">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -40,6 +40,17 @@ const AllProjectsPage = () => {
           ))}
         </div>
       </div>
+      <section className="bg-blue-500 py-20 md:py-24 text-center rounded-3xl my-16 md:mt-32 md:mb-24 px-6 md:px-0">
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Begin Your Design Journey</h2>
+        <p className="text-lg text-blue-100 md:text-xl max-w-3xl mx-auto mb-8">
+          Let’s create something extraordinary together.
+        </p>
+        <button
+          className="bg-white text-blue-500 font-bold py-4 px-6 text-sm md:text-lg md:px-12 rounded-lg shadow-md hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+        >
+          Get a Free Consultation
+        </button>
+      </section>
       <DiscoverUs />
     </section>
   );

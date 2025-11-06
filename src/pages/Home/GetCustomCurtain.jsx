@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import getCustom from '../../assets/getCustom.png';
 
 const GetCustomCurtain = () => {
@@ -45,7 +46,9 @@ const GetCustomCurtain = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-orange-400 text-white px-8 py-3 rounded-full hover:bg-blue-400 transition-colors duration-200 font-medium"
             >
-              Get Your Estimate Now →
+              <Link to='/contact'>
+                Get Your Estimate Now
+              </Link>
             </motion.button>
           </motion.div>
         </div>

@@ -22,7 +22,7 @@ const Projects = () => {
 
         {/* Add overflow-hidden here to prevent image scaling overflow */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-hidden">
-          {projects?.slice(0, 16).map((image, index) => (
+          {projects?.slice(0, 12).map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, scale: 0.8 }}
