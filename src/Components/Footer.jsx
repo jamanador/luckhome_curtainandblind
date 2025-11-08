@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-[#161C24] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -80,7 +80,7 @@ const Footer = () => {
               <div>Certified Installer</div>
               <div>Dubai Municipality Approved</div> */}
               <div>Dubai Municipality Approved</div>
-              <div><Link className='hover:text-blue-400 hover:font-semibold underline' to="/privacy-policy">Privacy Policy</Link></div>
+              <div><Link className='hover:text-[#00B2AD] hover:font-semibold underline' to="/privacy-policy">Privacy Policy</Link></div>
             </div>
           </motion.div>
 
@@ -95,15 +95,15 @@ const Footer = () => {
             <h3 className="text-lg font-bold">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">+971 55 337 1902</span>
+                <Phone className="w-4 h-4 text-[#00B2AD]" />
+                <span className="text-gray-400">+971 55 967 7625</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-400">badirafique@gmail.com</span>
+                <Mail className="w-4 h-4 text-[#00B2AD]" />
+                <span className="text-gray-400">azadul030@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin className="w-4 h-4 text-blue-400 mt-1" />
+                <MapPin className="w-4 h-4 text-[#00B2AD] mt-1" />
                 <span className="text-gray-400">Dubai, United Arab Emirates</span>
               </div>
             </div>

@@ -22,7 +22,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.8 }}
-                className="text-3xl lg:text-5xl font-bold text-gray-900 leading-loose text-left"
+                className="text-3xl lg:text-5xl font-bold text-gray-900 text-left leading-tight"
               >
                 Your Go-To Team for <br className="hidden md:block" />
                 <span className="text-black">Luxury </span>

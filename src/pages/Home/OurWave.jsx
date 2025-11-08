@@ -53,7 +53,7 @@ const OurWave = () => {
               className="bg-[#00B2AD] text-white px-8 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200 font-medium"
             >
               <Link to='/contact'>
-                Get Your Estimate Now
+                Learn More
               </Link>
             </motion.button>
           </motion.div>

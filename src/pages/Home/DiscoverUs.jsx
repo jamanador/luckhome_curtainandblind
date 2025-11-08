@@ -15,7 +15,7 @@ const DiscoverUs = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="lg:order-2"
+            className=""
           >
             <img src={discover} alt="" className="w-full h-auto max-w-full" loading="lazy" /> {/* ✅ Added max-w-full */}
           </motion.div>
@@ -26,7 +26,7 @@ const DiscoverUs = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="space-y-8 lg:order-1"
+            className="space-y-8 "
           >
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">

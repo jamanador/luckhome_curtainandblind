@@ -18,17 +18,19 @@ const OurCommitment = () => {
             className="space-y-6 overflow-hidden" // Ensures no overflow from this div
           >
             <div className="">
-              <h5 className='font-bold text-lg text-[#00B2AD]'>Our</h5>
+              <h5 className='font-bold text-lg text-[#00B2AD]'>Our Commitment</h5>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Wave Story
+                About Wave Curtain service
               </h2>
               <p className="text-gray-600 leading-relaxed overflow-hidden text-sm">
-                Since we began fitting wave curtains in the UAE, we have fallen in love with them. They offer a simple, elegant style that creates a clean and uniform look. Every wave curtain we install is well received and beautifully enhances any space. Wave curtains are one of the most modern and fashionable styles, often featured by top interior designers across the UAE.
+                Wave curtains are an ideal floor to ceiling solution and also look great at shorter windows as well.
+                Not all fabrics are suitable for the wave curtain style. As such we have put together a wave curtain range that always performs.
 
                 <br /><br />
-                Wave curtains are an ideal ceiling-to-floor solution and stack neatly in a small area—perfect for letting in plenty of natural light when opened.
+                We have learned from experience which are the best fabrics.
+                We have also achieved this by adding in a fabric range from Silent Gliss. This range has been designed and tested to suit the wave curtain effect.
                 <br /><br />
-                Beautiful and practical for any space, they are a notably effective curtain solution for modern Bi-Fold doors commonly found in UAE homes and offices.
+                The track and pole system is extremely important to ensure smooth and consistent operation. With Silent Gliss and other top brands, we provide the best-in-class wave curtain solutions across the UAE.
               </p>
             </div>
 
@@ -38,7 +40,7 @@ const OurCommitment = () => {
               className="bg-[#00B2AD] text-white px-8 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200 font-medium"
             >
               <Link to='/contact'>
-                Get Your Estimate Now
+                Get a Quote
               </Link>
             </motion.button>
           </motion.div>

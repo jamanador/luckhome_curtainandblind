@@ -4,8 +4,7 @@ import Hero from './Hero.jsx';
 import OurCommitment from './OurCommitment.jsx';
 import OurWave from './OurWave.jsx';
 import Products from './products.jsx';
-import Projects from './projects.jsx';
-
+import Projects from './Projects.jsx';
 const Home = () => {
   return (
     <>
